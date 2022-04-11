@@ -1,0 +1,17 @@
+.btna{
+    text-decoration: none;
+    color: orange;
+    /* margin-left: 5.5em; */
+    width: 30px;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btna:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: all 0.2s;
+    background: rgba(245, 7, 67, 0.931);
+}

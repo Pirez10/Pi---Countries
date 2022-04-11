@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(21, 182, 231, 0.589);
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    align-items: center;
+    /* background-color: transparent; */
+    border: 1px black solid;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: all 0.2s;
+    background: rgba(245, 7, 67, 0.931);
+}
+
+.img{
+    width: 200px;
+    height: 160px;
+}
+

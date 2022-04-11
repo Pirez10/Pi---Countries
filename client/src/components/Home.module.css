@@ -1,0 +1,55 @@
+h1 {
+    color: white
+
+}
+
+.cards{
+    display: grid;
+    row-gap: 40px;
+    grid-template-columns: auto auto auto;
+    padding: 40px;
+    margin-left: 50px;
+}
+
+.center{
+    text-align: center;
+    background-color: rgba(39, 48, 172, 0.692);
+    padding: 10px;
+}
+
+.total{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0.3em;
+    padding: 0.2em;
+    color: white;
+    justify-content: space-evenly;
+    align-self: flex-start;
+}
+
+/* .button{
+    margin-top: 17px;
+}  */
+
+.btna{
+    text-decoration: none;
+    color: orange;
+    /* margin-left: 5.5em; */
+    width: 160px;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btna:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: all 0.2s;
+    background: rgba(245, 7, 67, 0.931);
+}
+
+.filtersContainer{
+    display: flex;
+    border-radius: 5px;
+}

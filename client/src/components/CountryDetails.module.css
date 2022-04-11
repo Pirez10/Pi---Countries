@@ -1,0 +1,52 @@
+.windowContainer {
+    display: flex;
+    justify-content: center;
+    background-image: url(https://i.imgur.com/U3h0AEB.jpeg);
+    background-position-x: center;
+    background-size: cover;
+    background-size: cover;
+  }
+
+.linkcontainer {
+    margin-top: 30px;
+}
+
+.link {
+    position: absolute;
+    left: 50px;
+    top: 12px;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: white 1px solid;
+    border-radius: 5%;
+    color: white;
+    border-radius: 5px;
+}
+
+.link:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: all 0.2s;
+    background: rgba(245, 7, 67, 0.931);
+}
+
+.container {
+    margin-top: 5%;
+    padding: 2em;
+    /* backdrop-filter: blur(10px); */
+    background-color: rgba(21, 182, 231, 0.589);
+    border-radius: 3%;
+    width: 50%;
+    height: 50%;
+    border: black 1px solid;
+    color: white;
+    margin-top: 20px;
+}
+
+/* .link:hover{
+    background-color: rgba(204, 204, 204, 0.3);
+} */
+
+
